@@ -1,3 +1,5 @@
+# angdemo-twowaybinding
+two way binding and banana in a box pattern
 # TempAng6
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
