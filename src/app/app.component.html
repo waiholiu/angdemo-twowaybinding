@@ -1,3 +1,15 @@
 <h1>
   {{title}}
 </h1>
+
+
+<input [(ngModel)]="username1">
+
+<p>Hello {{username1}}!</p>
+
+
+<app-child [(counter)]="counterValue" (counterChange)="onChange($event)"> </app-child>
+
+<app-anotherchild [counter]="counterValue2" > </app-anotherchild>
+
+<p><code>counterValue = {{counterValue}}</code></p>

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  username : string;
+  counterValue : number = 50;
+  counterValue2 : number = 3;
+
+  onChange(event){
+    console.log(event);
+
+  }
 }
